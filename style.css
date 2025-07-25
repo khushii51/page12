@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.wishlist-container {
+  max-width: 1050px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+}
+
+.wishlist-container h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.wishlist-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.wishlist-table thead {
+  background: #f5f5f5;
+  font-size: 12px;
+  color: #666;
+  text-align: left;
+}
+
+.wishlist-table th, .wishlist-table td {
+  padding: 16px 12px;
+  vertical-align: middle;
+}
+
+.wishlist-table td img {
+  width: 50px;
+  height: auto;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.wishlist-table td span {
+  font-size: 14px;
+  color: #222;
+  vertical-align: middle;
+}
+
+.wishlist-table td del {
+  color: #aaa;
+  margin-right: 6px;
+}
+
+.in-stock {
+  color: green;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.out-stock {
+  color: red;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.btn-orange {
+  background-color: #f68b1e;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-orange i {
+  margin-left: 6px;
+}
+
+.btn-orange:hover {
+  background-color: #e77b14;
+}
+
+.btn-grey {
+  background-color: #c4c4c4;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 4px;
+  cursor: not-allowed;
+}
+
+.btn-grey i {
+  margin-left: 6px;
+}
+
+.delete-icon {
+  color: #bbb;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.delete-icon:hover {
+  color: #ff3d3d;
+}
